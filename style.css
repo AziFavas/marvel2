@@ -1,0 +1,68 @@
+
+body{
+    background-color: cornsilk;
+    background-image: url(https://in.pinterest.com/pin/140806231889618/);
+    width: 100%
+
+}
+.bg{
+    filter: blur(8px);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 50px;
+    
+}
+.onew{
+    display: flex;
+   justify-content: center;
+}
+.onew img{
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-top: -155px;
+    margin-bottom: 0px;
+    transition-timing-function: linear;
+    rotate: 90deg;
+    transition: all ease-in-out 0.5s;
+    
+    
+
+}
+
+.container{
+    display: inline-block;
+    position: absolute;
+    height: 450px;
+    width: 110%;
+    margin-top: -135px;
+    margin-left: 2%
+    margin-right: 0%;
+    margin: 0 0 0 0
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+  
+
+
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+    transition: all ease-in-out 0.5s;
+    
+}    
+.container img:hover{
+    width: 18%;
+    
+
+}
+
+
